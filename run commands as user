@@ -1,0 +1,5 @@
+sudo -u <user> bash <<EOF
+<command>
+<command>
+<command>
+EOF
