@@ -1,0 +1,1 @@
+git checkout -b <NEW_BRANCH> <FROM_THIS_BRANCH>
