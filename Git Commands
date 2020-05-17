@@ -1,0 +1,18 @@
+#############################################################
+#      Git creating a new branch from a specific branch     #
+#############################################################
+git checkout -b <NEW_BRANCH> <FROM_THIS_BRANCH>
+
+
+
+########################################
+#      Git delete branch locally       #
+########################################
+git branch -d <LOCAL_BRANCH>
+
+
+########################################
+#      Git delete branch remotely      #
+########################################
+git push origin --delete <REMOTE_BRANCH>
+
