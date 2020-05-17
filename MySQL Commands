@@ -4,7 +4,6 @@
 CREATE USER '<USER>'@'<ALLOWED FROM (% or IP)>' IDENTIFIED BY '<PASS>';
 
 
-
 ##########################
 #     Deleting a User    #
 ##########################
@@ -40,6 +39,7 @@ SELECT table_schema AS "Database", SUM(data_length + index_length) / 1024 / 1024
 #   Geting size of MySQL DBs in MB   #
 ######################################
 SELECT table_schema AS "Database", SUM(data_length + index_length) / 1024 / 1024 AS "Size (MB)" FROM information_schema.TABLES GROUP BY table_schema;
+
 
 
 ###################################
