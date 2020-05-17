@@ -23,6 +23,25 @@ GRANT SELECT, INSERT, UPDATE, DELETE, CREATE, DROP, RELOAD, PROCESS, REFERENCES,
 GRANT ALL PRIVILEGES ON . TO '<User>'@'<From (% or IP)>';
 
 
+
+###################################
+#     Changing MySQL user's host  #
+###################################
+RENAME USER '<user>'@'<ip>' TO '<user>'@'<ip>';
+
+
+
+######################################  
+#    Geting size of MySQL DBs in GB  #
+######################################
+SELECT table_schema AS "Database", SUM(data_length + index_length) / 1024 / 1024 / 1024 AS "Size (GB)" FROM information_schema.TABLES GROUP BY table_schema;
+
+######################################
+#   Geting size of MySQL DBs in MB   #
+######################################
+SELECT table_schema AS "Database", SUM(data_length + index_length) / 1024 / 1024 AS "Size (MB)" FROM information_schema.TABLES GROUP BY table_schema;
+
+
 ###################################
 #    Update the privileges table  #
 ###################################
