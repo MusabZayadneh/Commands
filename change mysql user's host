@@ -1,1 +1,0 @@
-RENAME USER '<user>'@'<ip>' TO '<user>'@'<ip>';
