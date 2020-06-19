@@ -1,0 +1,3 @@
+dig <DOMAIN NAME>
+nslookup <DOMAIN NAME>
+host -t <TYPE OF DNS RECORD> <DOMAIN NAME>
