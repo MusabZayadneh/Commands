@@ -46,3 +46,10 @@ SELECT table_schema AS "Database", SUM(data_length + index_length) / 1024 / 1024
 #    Update the privileges table  #
 ###################################
 FLUSH PRIVILEGES;
+
+
+
+#############################################################################
+#    Taking Dumb From RDS or EC2 (MySQL) to put it on RDS or EC2 (MySQL)    #
+#############################################################################
+mysqldump -h<RDS END POINT OR IP> -u<USER> -p<PASSWORD> --port=3306 --single-transaction --routines --triggers --databases database database2 > mysql-dump.sql
