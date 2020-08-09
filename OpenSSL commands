@@ -1,4 +1,7 @@
 # these to generate self sign certification for the NGINX/Apache
+#also if you face this error:
+#[Sun Aug 09 11:52:13.301881 2020] [ssl:warn] [pid 4633:tid 139976756643008] AH01909: <DOMAIN NAME>:443:0 server certificate does NOT include an ID which matches the server name
+
 
 openssl genrsa -out notEncodedPk.key 3072
 openssl req -new -out website.csr -sha256 -key notEncodedPk.key
