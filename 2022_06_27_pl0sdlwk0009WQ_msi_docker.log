@@ -1,0 +1,14 @@
+2022-06-27T11:09:18.091417600Z Warning! Cannot copy to bundle: /usr/local/share/ca-certificates/azure
+2022-06-27T11:09:18.163605597Z WARNING: ca-certificates.crt does not contain exactly one certificate or CRL: skipping
+2022-06-27T11:09:18.163631897Z WARNING: ca-cert-azure.pem does not contain exactly one certificate or CRL: skipping
+2022-06-27T11:09:18.303545679Z Updated CA certificates
+2022-06-27T11:09:20.495978255Z webapp-ir-fpn-dev-bkerest-api : [00000000-0000-0000-0000-000000000000] Configuration update started. Site: webapp-ir-fpn-dev-bkerest-api
+2022-06-27T11:09:20.507916485Z webapp-ir-fpn-dev-bkerest-api : [00000000-0000-0000-0000-000000000000] [SystemAssigned] Added Identity with ClientId: a137e4dc-0245-4ae3-bee1-aa03fc58102c
+2022-06-27T11:09:20.510230791Z webapp-ir-fpn-dev-bkerest-api : [00000000-0000-0000-0000-000000000000] Starting TokenService from /app with the following: IsLinuxDedicated: True, IsLinuxConsumption: False, IsWindows: False.
+2022-06-27T11:09:20.561593422Z Hosting environment: Production
+2022-06-27T11:09:20.563889827Z Content root path: /app
+2022-06-27T11:09:20.564573129Z Now listening on: http://[::]:8081
+2022-06-27T11:09:20.564979630Z Application started. Press Ctrl+C to shut down.
+2022-06-27T11:09:21.122494049Z webapp-ir-fpn-dev-bkerest-api : [d3ed3614-15bb-451a-a078-73bf7456d56a] Incoming request on /healthcheck?api-version=2021-08-01
+2022-06-27T11:09:24.413802701Z webapp-ir-fpn-dev-bkerest-api : [425173ed-08d3-4a83-8a72-c3ba5848a674] Incoming request on /robots933456.txt
+
